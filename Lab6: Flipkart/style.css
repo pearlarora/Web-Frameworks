@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: white;
+  color: #2874F0;
+  border: none;
+  border-radius: 1px;
+  padding: 7px 40px;
+  font-size: 18px;
+  box-shadow: 0 0 3px rgb(105, 105, 105);
+}
+
+header {
+  background-color: #2874F0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  display: grid;
+  justify-items: center;
+  font-size: 13px;
+}
+#logo img {
+  height: 22px;
+}
+#plus {
+  color: rgb(255, 230, 0);
+}
+#plus img {
+  height: 12px;
+  margin-bottom: 2px;
+}
+
+#search {
+  margin: 0 20px;
+}
+input[type="search"] {
+  padding: 10px 20px;
+  width: 550px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgb(134, 134, 134);
+}
+::placeholder {
+  font-size: 16px;
+}
+#search i {
+  color: #2874F0;
+  font-size: 18px;
+  margin-left: -35px;
+  margin-right: 180px;
+}
+
+nav {
+  color: white;
+  margin-left: 50px;
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+}
+
+#container {
+  max-width: 800px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  justify-content: space-between;
+  animation: imgSlider 10s linear infinite;
+}
+@keyframes imgSlider {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+#slider:hover {
+  animation-play-state: paused;
+}
+.image img {
+  width: 1800px;
+  object-fit: cover;
+}

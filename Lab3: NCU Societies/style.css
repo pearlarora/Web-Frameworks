@@ -1,0 +1,74 @@
+body {
+  width: 760px;
+  margin: auto;
+  border: 1px solid black;
+}
+img {
+  height: 100px;
+}
+a {
+  color: black;
+  font-size: 22px;
+}
+a:visited {
+  color: black;
+}
+
+header {
+  height: 263px;
+  background-image: url("headerBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.college {
+  display: flex;
+  align-items: center;
+}
+
+td {
+  vertical-align: top;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+form button {
+  border-radius: 0;
+  border: none;
+  box-shadow: 1px 1px 6px rgb(138, 137, 137);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px;
+  width: 90px;
+  background-color: rgb(93, 156, 250);
+}
+#left-section div {
+  margin-top: 40px;
+}
+#left-section div img {
+  margin-bottom: 20px;
+  height: 200px;
+}
+table .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-weight: bold;
+  background-color: rgb(204, 202, 202);
+  padding: 20px;
+}
+
+
+footer {
+  background-color: rgb(204, 202, 202);
+  padding: 10px 0 20px 20px;
+}
+footer .links, footer p {
+  padding-left: 10px;
+}
+footer .links a {
+  margin-right: 20px;
+}
