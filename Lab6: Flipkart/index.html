@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab6: Flipkart</title>
-  
+  <title>Lab6: Flipkart Clone</title>
+
   <!-- Style Sheet -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- Header -->
   <header>
-    <div id="logo">
+    <div class="logo">
       <img src="images/logo.png" alt="">
       <a href="https://www.flipkart.com/plus">Explore
-        <span id="plus">Plus<img src="images/plus.png" alt=""></span>
+        <span class="plus">Plus<img src="images/plus.png" alt=""></span>
       </a>
     </div>
-    <form id="search">
+    <form class="search">
       <input type="search" placeholder="Search for products, brands and more">
       <a><i class="fas fa-search"></i></a>
     </form>
@@ -28,20 +31,177 @@
     </nav>
   </header>
 
-  <section id="container">
-    <div id="slider">
-      <div class="image">
-        <img src="images/slider2.jpeg" alt="slider">
+  <!-- Categories -->
+  <section class="categories">
+    <div class="items">
+      <img src="images/1.png" alt="category item">
+      <p>Top Offers</p>
+    </div>
+    <div class="items">
+      <img src="images/2.png" alt="category item">
+      <p>Grocery</p>
+    </div>
+    <div class="items">
+      <img src="images/3.png" alt="category item">
+      <p>Mobiles</p>
+    </div>
+    <div class="items">
+      <img src="images/4.png" alt="category item">
+      <p>Fashion</p>
+    </div>
+    <div class="items">
+      <img src="images/5.png" alt="category item">
+      <p>Electronics</p>
+    </div>
+    <div class="items">
+      <img src="images/6.png" alt="category item">
+      <p>Home</p>
+    </div>
+    <div class="items">
+      <img src="images/7.png" alt="category item">
+      <p>Appliances</p>
+    </div>
+    <div class="items">
+      <img src="images/8.png" alt="category item">
+      <p>Travel</p>
+    </div>
+    <div class="items">
+      <img src="images/9.png" alt="category item">
+      <p>Beauty, Toys & More</p>
+    </div>
+  </section>
+
+  <!-- Scroll Bar -->
+  <section class="container">
+    <div class="slider">
+      <img src="images/slider3.png" alt="slider">
+      <img src="images/slider1.png" alt="slider">
+    </div>
+  </section>
+
+  <!-- Deals of the Day -->
+  <section class="grid">
+    <div class="heading">
+      <h1>Deals of the Day</h1>
+      <button>View All</button>
+    </div>
+    <div class="grid-items">
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
       </div>
-      <div class="image">
-        <img src="images/slider2.jpg" alt="slider">
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
       </div>
-      <div class="image">
-        <img src="images/slider2.jpg" alt="slider">
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
       </div>
     </div>
   </section>
 
+  <!-- Best Sellers -->
+  <section class="grid">
+    <div class="heading">
+      <h1>Best Sellers</h1>
+      <button>View All</button>
+    </div>
+    <div class="grid-items">
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://source.unsplash.com/1400x1600/?clothes,accessories" alt="single product">
+        <p><b>Product Name</b></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made by Pearl Arora, 19csu208</p>
+  </footer>
+
+  <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
 </body>
+
 </html>
