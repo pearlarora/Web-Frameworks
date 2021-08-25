@@ -139,6 +139,10 @@ nav {
 .grid-item img {
   height: 150px;
 }
+.grid-item img:hover {
+  height: 160px;
+  transition: 1s;
+}
 
 footer {
   background-color: rgb(177, 175, 175);
