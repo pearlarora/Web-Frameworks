@@ -86,3 +86,11 @@ ul {
 .col2 img {
   height: 100px;
 }
+
+#footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+}
