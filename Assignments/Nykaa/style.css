@@ -152,6 +152,7 @@ button:hover {
 
 /* Coupon */
 .coupon {
+  overflow: hidden;
   margin: 15px 0 0 30px;
 }
 .coupon-description {
